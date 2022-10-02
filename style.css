@@ -1,0 +1,103 @@
+body{
+    background-color: silver;
+}
+#bandeau{
+    display: flex;
+    min-height: 2%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#logo{
+    width: 25%;
+}
+#banniere{
+    display: flex;
+    width: 75%;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 2%;
+    background-color: blue;
+    list-style-type: none;
+}
+#menu{
+    display: flex;
+    transform: translate(0%, 70%);
+}
+.lien{
+    font-size: x-large;
+    text-decoration: none;
+    color: red;
+}
+#titre{
+    display: flex;
+    min-height: 2%;
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+}
+#ban{
+    width: 100%;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+#photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.message{
+    text-decoration: none;
+    color: rgb(255, 215, 0);
+}
+footer{
+    background-color: blue;
+}
+#reseaux{
+    display: flex;
+}
+#facebook{
+    width: 30%;
+}
+#insta{
+    width: 30%;
+}
+#twitter{
+    width: 30%;
+}
+#linkedin{
+    width: 30%;
+}
+#pinterest{
+    width: 30%;
+}
+@media screen and (min-width:1080px){
+    .lien{
+        font-size: x-large;
+    }
+}
+@media screen and (min-width:601px) and (max-width:1024px){
+    #menu{
+        display: flex;
+        transform: translate(0%, 90%);
+    }
+    .lien{
+        font-size: large;
+    }
+}
+@media screen and (max-width:600px){
+    #menu{
+        display: flex;
+        transform: translate(0%, 30%);
+    }
+    .lien{
+        font-size: x-small;
+    }
+    
+}

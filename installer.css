@@ -1,0 +1,38 @@
+body{
+    background-color: silver;
+}
+.bandeau{
+    min-height: 2%;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+#logo{
+    width: 25%;
+}
+.banniere{
+    width: 75%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 2%;
+    border: 20px solid blue;
+    background-color: blue;
+    list-style-type: none;
+}
+h1{
+    position: absolute;
+    top: 35%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.app{
+    display: flex;
+}
+@media screen and (min-width:320px) and (max-width:600px){
+    #appli{
+        width: 30%;
+    }
+}
